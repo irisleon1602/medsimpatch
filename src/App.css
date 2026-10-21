@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap');
+*{box-sizing:border-box}body{margin:0;background:#fff8fa;color:#30283b;font-family:Inter,Arial,sans-serif}button,input{font:inherit}button{cursor:pointer}.app{min-height:100vh}.barra{display:flex;justify-content:space-between;align-items:center;padding:22px max(24px,calc((100vw - 1120px)/2));background:#fff;border-bottom:1px solid #f5dce5}.marca{font-weight:900;letter-spacing:1px}.marca span{color:#ef5c7b}.marca small{display:block;font-size:10px;letter-spacing:2px;color:#9e7f92;margin-top:4px}.version{font-size:11px;color:#b76a82;font-weight:700}.contenedor{max-width:1120px;margin:auto;padding:34px 20px 70px}.hero{padding:52px 46px;border-radius:30px;background:linear-gradient(115deg,#ffe1e9,#f0e6ff);margin-bottom:42px}.eyebrow{color:#d64b70;font-size:12px;letter-spacing:2px;font-weight:800}.hero h1{font-size:clamp(30px,5vw,52px);line-height:1.1;margin:18px 0}.hero p{color:#6e6378;font-size:17px;max-width:680px;line-height:1.6}.hero-pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.hero-pills span{background:#ffffffb8;border-radius:30px;padding:10px 16px;font-size:13px}.seccion-titulo{display:flex;justify-content:space-between;align-items:center;gap:10px}.seccion-titulo span{color:#9d8b9d;font-size:13px}.biblioteca h2{font-size:26px}.biblioteca input{width:100%;padding:18px;border:1px solid #f1d5df;border-radius:15px;background:white;outline-color:#ef7c9b;margin:14px 0 24px}.catalogo{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.tarjeta{border:1px solid #f5dce5;background:#fff;border-radius:24px;padding:30px 12px;min-height:206px;display:flex;flex-direction:column;align-items:center;gap:12px;box-shadow:0 9px 20px #eec6d125;color:#30283b}.tarjeta .emoji{font-size:45px}.tarjeta strong{font-size:16px}.tarjeta small{color:#97889a}.tarjeta span{color:#d95275;font-weight:700;margin-top:auto}.tarjeta:disabled{opacity:.7;cursor:default}.tarjeta.disponible{border-color:#ff7792}.tarjeta.disponible:hover{transform:translateY(-3px);box-shadow:0 12px 25px #ed8eae44}.simulador{background:white;border:1px solid #f3d8e3;border-radius:28px;padding:30px;margin-top:48px;box-shadow:0 18px 45px #ead1de55}.sim-top{display:flex;justify-content:space-between;gap:12px}.sim-top h2{margin:14px 0 8px;font-size:28px}.sim-top p{color:#8b7a8f}.cerrar{background:transparent;border:0;color:#df4e75;align-self:start}.caso-visual{background:linear-gradient(110deg,#ffe2e9,#f0e6ff);border-radius:22px;min-height:180px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;color:#776a80;padding:24px;margin:20px 0}.mancha{font-size:58px}.marcadores{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0}.marcadores>div{background:#fff1f5;border-radius:14px;padding:12px 18px}.aviso{background:#fff9e7;padding:14px 16px;border-radius:14px;margin-bottom:16px;line-height:1.7}.aviso button{border:0;background:#f6b857;border-radius:12px;padding:8px 12px;margin-left:10px;font-weight:700}.etapas{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0}.etapas button{border:1px solid #f6d8e1;background:#fff9fb;padding:12px 15px;border-radius:30px;color:#6b5b6d}.etapas button.activa{background:#f66f89;color:#fff;border-color:#f66f89}.etapas button:disabled{opacity:.45;cursor:not-allowed}.historia,.pregunta{background:#fff9fb;border:1px solid #f5dce5;border-radius:20px;padding:22px;margin-bottom:18px}.historia p{line-height:1.75}.pregunta-head{display:flex;justify-content:space-between;gap:8px;align-items:center}.pregunta-head span{color:#d64b70;font-size:11px;font-weight:800;letter-spacing:1px}.pregunta-head button{border:1px solid #f1d4a2;background:#fff7df;border-radius:15px;padding:8px;font-size:12px}.pregunta-head button:disabled{opacity:.55}.opciones{display:grid;gap:10px}.opciones button{text-align:left;border:1px solid #ead7e1;background:white;padding:14px;border-radius:14px}.opciones button:hover:not(:disabled){border-color:#ed7190}.opciones button.correcta{border-color:#36a67b;background:#e5f9f0}.opciones button.incorrecta{border-color:#d66b73;background:#fff0f1}.explicacion{background:#edf8f3;border-radius:14px;padding:14px;margin-top:14px;line-height:1.6}.explicacion p{margin-bottom:0}.pista{background:#fff4d7;border-radius:10px;padding:12px}.acciones{display:flex;justify-content:space-between;gap:10px;margin-top:20px}.acciones button,.resultados button{padding:14px 22px;border-radius:14px;font-weight:700}.principal{background:#ed6484;color:white;border:0}.principal:disabled{opacity:.45;cursor:not-allowed}.secundario{background:white;border:1px solid #ead1dd}.secundario:disabled{opacity:.4}.resultados{text-align:center;background:#fff5f8;border-radius:24px;padding:36px 16px}.trofeo{font-size:72px}.puntos-final{font-size:52px;font-weight:900;color:#dc5276}.puntos-final span{font-size:18px}.nota{color:#958698;font-size:12px}footer{text-align:center;padding:28px;color:#a38f9f;border-top:1px solid #f2dce5}@media(max-width:780px){.catalogo{grid-template-columns:repeat(2,1fr)}.hero{padding:36px 24px}.version{display:none}.simulador{padding:18px}.sim-top{flex-direction:column}}@media(max-width:420px){.catalogo{gap:10px}.tarjeta{padding:22px 8px}.seccion-titulo{display:block}.acciones button{padding:12px}.pregunta-head{align-items:flex-start;flex-direction:column}}
+.app.jugando .hero,
+.app.jugando .biblioteca {
+  display: none;
+}
+
+.app.jugando .simulador {
+  margin-top: 30px;
+}/* PANTALLA INDEPENDIENTE DEL JUEGO */
+
+.app.jugando .hero,
+.app.jugando .biblioteca {
+  display: none;
+}
+
+/* El simulador ocupa su propia pantalla */
+
+.app.jugando .simulador {
+  margin: 30px auto;
+  width: 100%;
+  max-width: 1100px;
+  animation: entrarMision 0.4s ease-out;
+}
+
+/* AnimaciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n de entrada */
+
+@keyframes entrarMision {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Entrevista clÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­nica interactiva */
+.entrevista-panel{background:#fff9fb;border:1px solid #f5dce5;border-radius:22px;padding:24px;margin-bottom:22px}
+.entrevista-encabezado{display:flex;align-items:center;gap:18px}
+.avatar-paciente{width:76px;height:76px;border-radius:22px;display:grid;place-items:center;background:linear-gradient(135deg,#ffd8e4,#e6d9ff);font-size:42px;flex-shrink:0}
+.entrevista-encabezado h3{margin:7px 0}.entrevista-encabezado p{margin:5px 0;color:#78697e;line-height:1.5}
+.progreso-entrevista{margin:22px 0 14px;background:#fff0f5;border-radius:12px;padding:12px 15px;color:#a34367;font-weight:700;font-size:13px}
+.dialogo-clinico{background:#fff;border:1px solid #f3dce7;border-radius:20px;padding:18px;max-height:440px;overflow-y:auto;display:flex;flex-direction:column;gap:14px}
+.intercambio{display:flex;flex-direction:column;gap:10px}
+.mensaje-paciente,.mensaje-medico{padding:13px 16px;border-radius:17px;max-width:83%;line-height:1.55}
+.mensaje-paciente{background:#f4edff;align-self:flex-start;border-bottom-left-radius:5px}
+.mensaje-medico{background:#ffe4ed;align-self:flex-end;border-bottom-right-radius:5px}
+.mensaje-paciente strong,.mensaje-medico strong{font-size:12px;color:#b64f7b}
+.mensaje-paciente p,.mensaje-medico p{margin:5px 0 0}
+.entrevista-panel h4{margin:22px 0 12px}
+.preguntas-entrevista{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.preguntas-entrevista button{border:1px solid #f0ccdb;background:#fff;border-radius:14px;padding:13px;text-align:left;color:#403347;line-height:1.4}
+.preguntas-entrevista button:hover:not(:disabled){background:#ffeaf1;border-color:#ed7190}
+.preguntas-entrevista button:disabled{opacity:.55;cursor:default;background:#f4f0f3}
+.ayuda-entrevista{font-size:13px;color:#94677b;margin:14px 0 0}
+@media(max-width:640px){.entrevista-panel{padding:15px}.preguntas-entrevista{grid-template-columns:1fr}.avatar-paciente{width:56px;height:56px;font-size:32px}.mensaje-paciente,.mensaje-medico{max-width:95%}}
+
+/* ExploraciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n clÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­nica interactiva */
+.exploracion-panel{background:#fff9fb;border:1px solid #f5dce5;border-radius:22px;padding:24px;margin-bottom:20px}
+.exploracion-heading{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;flex-wrap:wrap}
+.exploracion-heading h3{font-size:24px;margin:10px 0}
+.exploracion-heading p{color:#7e7184;line-height:1.6;max-width:660px}
+.exploracion-contador{background:#fce5ee;color:#bd446d;border-radius:40px;padding:10px 16px;font-size:13px;font-weight:800}
+.exploracion-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:20px;margin:18px 0}
+.brazo-interactivo{background:linear-gradient(135deg,#fff0f5,#f3ebff);border:1px solid #f2d9e6;border-radius:22px;padding:18px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.brazo-svg{width:100%;max-width:520px;overflow:visible}
+.brazo-interactivo p{font-size:12px;color:#8e7a90;text-align:center}
+.punto-svg{cursor:pointer;outline:none}.punto-svg circle{transition:stroke-width .2s,filter .2s}.punto-svg:hover circle,.punto-svg:focus circle,.punto-svg.punto-activo circle{stroke:#643b83;stroke-width:5;filter:drop-shadow(0 2px 5px #ad7eae)}
+.exploracion-opciones h4{margin:4px 0 12px}.maniobra{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;background:white;border:1px solid #efd5e0;border-radius:13px;padding:12px 14px;margin-bottom:9px;color:#493849}.maniobra span{font-size:14px;font-weight:650}.maniobra small{font-size:11px;color:#b65378;white-space:nowrap}.maniobra.seleccionada{border-color:#eb7194;background:#fff0f5}.maniobra:hover{border-color:#eb7194}
+.hallazgo-box{background:white;border:1px solid #f2d9e6;border-radius:17px;padding:20px;min-height:130px}.hallazgo-box h4{margin:10px 0}.hallazgo-box p{line-height:1.65;margin-bottom:0}.progreso-exploracion{font-weight:700;color:#b84970;font-size:14px;margin:18px 0 0}
+@media(max-width:780px){.exploracion-grid{grid-template-columns:1fr}.exploracion-panel{padding:16px}}
+
+/* ETAPA 3: DIAGNÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œSTICO INTERACTIVO */
+.diagnostico-panel{background:#fff9fc;border:1px solid #f4d9e5;border-radius:24px;padding:24px;margin:18px 0}
+.diagnostico-cabecera h3{font-size:25px;margin:12px 0 8px}.diagnostico-cabecera p{line-height:1.6;color:#756679}
+.barra-progreso{height:10px;background:#f5dce7;border-radius:30px;overflow:hidden;margin:20px 0}.barra-progreso div{height:100%;background:linear-gradient(90deg,#ed6484,#a97be8);transition:width .3s}
+.diagnostico-paso{margin:25px 0}.diagnostico-paso h4{margin:0 0 13px;font-size:17px}.diagnostico-paso h4 small{color:#b36a87;font-weight:500}
+.evidencias-grid,.diferenciales-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.evidencia,.diferencial,.razon{border:2px solid #f0d9e4;border-radius:17px;background:white;color:#352c40;text-align:left;padding:16px;display:flex;flex-direction:column;gap:8px;line-height:1.4;transition:background .2s,border-color .2s}
+.evidencia span,.diferencial span{font-size:13px;color:#776c7d}.evidencia.elegida,.diferencial.elegida,.razon.elegida{border-color:#e86690;background:#fff0f6}
+.razones-grid{display:grid;gap:10px}.dictamen{border-radius:16px;padding:17px;line-height:1.6}.dictamen p{margin:8px 0}.dictamen-correcto{background:#eaf8f1;border:1px solid #b2e2c9}.dictamen-revisar{background:#fff3e1;border:1px solid #f3d9a9}
+.progreso-diagnostico{color:#a65376;background:#fff0f5;padding:12px;border-radius:12px}
+@media(max-width:620px){.evidencias-grid,.diferenciales-grid{grid-template-columns:1fr}.diagnostico-panel{padding:16px}}
+
+
+/* Etapa 4 ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· decisiones clÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­nicas interactivas */
+.decisiones-panel{background:#fff9fc;border:1px solid #f4d9e5;border-radius:24px;padding:24px;margin:18px 0}
+.decisiones-panel h3{font-size:25px;margin:12px 0}
+.decisiones-intro{color:#756679;line-height:1.65}
+.seguridad-medidor{padding:17px;background:#f6ecff;border-radius:17px;margin:20px 0}
+.seguridad-medidor>div:first-child{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:13px}
+.seguridad-medidor span{color:#7b6689}
+.seguridad-barra{height:10px;background:#e5d7ed;border-radius:20px;overflow:hidden;margin-top:12px}
+.seguridad-barra div{height:100%;background:linear-gradient(90deg,#e97ca4,#6abf9e);transition:width .3s}
+.decision-escena{border:1px solid #f0d9e4;border-radius:20px;background:white;padding:20px;margin:17px 0}
+.decision-bloqueada{opacity:.66}
+.decision-titulo span{font-size:11px;color:#d64b70;font-weight:800;letter-spacing:1.4px}
+.decision-titulo h4{margin:8px 0;font-size:19px}
+.decision-contexto{line-height:1.6;color:#6f6175}
+.decision-candado{background:#f5f0f5;padding:14px;border-radius:12px;font-size:13px}
+.decision-opciones{display:grid;gap:10px;margin:16px 0}
+.decision-opciones button{display:flex;gap:12px;text-align:left;align-items:start;background:#fff9fc;border:1px solid #edd2e0;padding:14px;border-radius:14px;color:#382d42;line-height:1.5}
+.decision-opciones button span{font-weight:800;color:#d64b70}
+.decision-opciones button:hover:not(:disabled){border-color:#e86690;background:#fff0f6}
+.decision-opciones button.decision-elegida{border:2px solid #e86690;background:#fff0f6}
+.decision-opciones button:disabled:not(.decision-elegida){opacity:.58;cursor:default}
+.evolucion{border-radius:15px;padding:16px;margin-top:14px;line-height:1.65}
+.evolucion p{margin:9px 0 0}
+.evolucion-segura{background:#eaf8f1;border:1px solid #b2e2c9}
+.evolucion-alerta{background:#fff3e1;border:1px solid #f3d9a9}
+.decision-resumen{background:#f5e9ff;border-radius:15px;padding:17px;margin-top:18px}
+.decision-resumen p{margin-bottom:0;line-height:1.5}
+@media(max-width:620px){.decisiones-panel{padding:15px}.decision-escena{padding:14px}}
+
+
+/* MedSimPatch 5.0 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Resultados y recompensas */
+.resultados-premium{background:transparent;padding:0;text-align:left;overflow:hidden}
+.resultado-hero{background:linear-gradient(125deg,#ffe0ea 0%,#f3e5ff 58%,#e7f7f4 100%);border:1px solid #f2d4e5;border-radius:28px;padding:38px 22px;text-align:center;position:relative;overflow:hidden}
+.resultado-hero:before,.resultado-hero:after{content:'ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã¢â‚¬Å“Ãƒâ€šÃ‚Â¦';position:absolute;font-size:36px;color:#e99ec5;opacity:.55}.resultado-hero:before{top:20px;left:8%}.resultado-hero:after{right:9%;bottom:25px}
+.resultado-etiqueta{display:inline-block;color:#b64c78;letter-spacing:1.8px;font-size:11px;font-weight:900}
+.resultado-hero .trofeo{font-size:76px;margin:12px 0;filter:drop-shadow(0 8px 9px #a8669633);animation:trofeoEntrada .7s ease-out}
+.resultado-hero h2{font-size:clamp(30px,5vw,44px);margin:8px 0;color:#38263e}
+.resultado-subtitulo{color:#78687e;margin:10px auto 20px;max-width:490px;line-height:1.5}
+.insignia-final{display:flex;flex-direction:column;gap:7px;align-items:center;width:fit-content;max-width:100%;margin:0 auto;padding:14px 28px;background:#ffffffb8;border:1px solid #ffffffd9;border-radius:18px;box-shadow:0 8px 30px #b979a323}
+.insignia-final span{font-size:10px;font-weight:800;letter-spacing:1.4px;color:#a86585}.insignia-final strong{font-size:19px;color:#633c72}
+.resultado-hero .puntos-final{margin-top:18px;line-height:1.1;font-size:clamp(42px,7vw,65px)}
+.record-personal{font-size:13px;color:#835a75;font-weight:700}
+.resultado-metricas{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:20px 0 14px}
+.resultado-metricas>div{background:#fff;border:1px solid #f2dce7;border-radius:19px;padding:20px 14px;display:flex;flex-direction:column;gap:10px;text-align:center;box-shadow:0 8px 25px #e8cad633}
+.resultado-metricas span{font-size:12px;color:#846e82}.resultado-metricas strong{font-size:29px;color:#d95683}
+.resultado-progreso{height:12px;background:#f4e2eb;border-radius:20px;overflow:hidden;margin:0 0 28px}.resultado-progreso>div{height:100%;border-radius:20px;background:linear-gradient(90deg,#f36c93,#a77be8);transition:width .5s ease}
+.expediente-final,.evaluacion-final{background:#fff;border:1px solid #f2dce7;border-radius:24px;padding:25px;margin:22px 0;box-shadow:0 8px 24px #ead0dd30}
+.expediente-encabezado h3,.evaluacion-final h3{font-size:24px;margin:10px 0 22px}.expediente-cuerpo{display:grid;grid-template-columns:190px minmax(0,1fr);gap:24px;align-items:start}
+.retrato-alex{aspect-ratio:3/4;background:linear-gradient(145deg,#ffe1e9,#e8ddff);border-radius:20px;overflow:hidden;display:grid;place-items:center;border:1px solid #f1d5e3}
+.retrato-alex img{width:100%;height:100%;object-fit:cover}.retrato-placeholder{text-align:center;display:flex;flex-direction:column;align-items:center;gap:12px}.retrato-placeholder span{font-size:64px}.retrato-placeholder small{font-size:10px;font-weight:900;letter-spacing:1px;color:#986f94;line-height:1.7}
+.expediente-datos h4{font-size:21px;margin:0 0 14px}.expediente-datos p{font-size:14px;line-height:1.65;color:#5e5266;margin:0 0 12px}.expediente-aclaracion{color:#917f94;font-size:12px;line-height:1.5;margin:20px 0 0}
+.evaluacion-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.evaluacion-item{background:#fff8fb;border:1px solid #f4e0e9;border-radius:17px;padding:18px}.evaluacion-item h4{margin:0 0 10px;font-size:14px}.evaluacion-item strong{color:#d2527c;font-size:16px}.evaluacion-item p{color:#817184;line-height:1.5;font-size:12px;margin-bottom:0}
+.resultado-acciones{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:25px 0}.resultado-acciones button{min-width:190px}.resultados-premium>.nota{text-align:center;margin-top:20px}
+.avatar-paciente img{width:100%;height:100%;object-fit:cover;border-radius:22px}
+@keyframes trofeoEntrada{from{opacity:0;transform:scale(.75) rotate(-8deg)}to{opacity:1;transform:scale(1) rotate(0)}}
+@media(max-width:650px){.resultado-hero{padding:30px 15px}.resultado-metricas{gap:7px}.resultado-metricas>div{padding:15px 6px}.resultado-metricas strong{font-size:23px}.resultado-metricas span{font-size:11px}.expediente-cuerpo{grid-template-columns:1fr}.retrato-alex{width:155px;margin:auto}.evaluacion-grid{grid-template-columns:1fr}.expediente-final,.evaluacion-final{padding:18px}}
+@media(prefers-reduced-motion:reduce){.resultado-hero .trofeo{animation:none}}
+
+
+/* =========================================================
+   MEDSIMPATCH ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â CLINICAL ARCADE / VISUAL UPGRADE
+   Preserves existing game logic and class names.
+   ========================================================= */
+:root{--ink:#26203b;--muted:#7e748e;--pink:#f14f82;--pink-deep:#d9316d;--violet:#7955dd;--lilac:#f0eaff;--line:#eddfed;--mint:#c7f4e5;--shadow:0 18px 45px rgba(67,35,92,.09)}
+html{scroll-behavior:smooth}
+body{background:radial-gradient(ellipse at 3% 0%,#fce4f1 0%,transparent 32%),radial-gradient(ellipse at 95% 14%,#ede4ff 0%,transparent 32%),#fcf9ff;color:var(--ink);font-family:'DM Sans',Inter,Arial,sans-serif}
+h1,h2,h3,h4,.marca,.puntos-final,.insignia-final strong{font-family:Outfit,'DM Sans',sans-serif;letter-spacing:-.025em}
+button{transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease,background .18s ease}
+button:focus-visible,input:focus-visible,.punto-svg:focus-visible{outline:3px solid #8060eb;outline-offset:3px}
+button:hover:not(:disabled){transform:translateY(-2px)}
+button:active:not(:disabled){transform:translateY(0) scale(.99)}
+.barra{position:relative;z-index:2;padding-top:19px;padding-bottom:19px;background:rgba(255,255,255,.86);backdrop-filter:blur(18px);box-shadow:0 5px 24px rgba(78,37,94,.035)}
+.marca{font-size:21px;letter-spacing:.01em}.marca span{color:var(--pink)}.marca small{font-family:'DM Sans',sans-serif;font-size:10px;letter-spacing:.22em;color:#8c789b}
+.version{background:#f5edff;border:1px solid #e8dcfa;padding:9px 13px;border-radius:999px;color:#7855b3;font-size:10px;letter-spacing:.07em}
+.contenedor{padding-top:35px}
+.hero{position:relative;overflow:hidden;isolation:isolate;padding:70px 55px;background:linear-gradient(118deg,#fff0f5 4%,#f5e9ff 57%,#e9f9ff 100%);border:1px solid #f1dced;box-shadow:var(--shadow)}
+.hero:after{content:'ÃƒÂ¢Ã…â€œÃ‚Â¦';position:absolute;right:5%;top:5%;font-size:clamp(110px,20vw,230px);line-height:1;color:rgba(156,110,226,.12);z-index:-1;transform:rotate(-15deg)}
+.hero .eyebrow{display:inline-flex;background:#fff;border:1px solid #f2d9ed;border-radius:100px;padding:11px 15px;color:#c84078;box-shadow:0 5px 16px #d57eb01a}
+.hero h1{max-width:710px;font-size:clamp(37px,6vw,66px);line-height:1.04;font-weight:900;margin:23px 0;background:linear-gradient(100deg,#31223d 10%,#7444b3 72%,#db4f8a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{font-size:18px;max-width:620px;color:#645a74}
+.hero-pills span{background:#ffffffd9;border:1px solid #ffffff;font-weight:800;color:#5f4677;box-shadow:0 6px 18px #c0a2cf21}
+.seccion-titulo h2{font-size:31px;margin-bottom:8px}.seccion-titulo span{background:#f2eaff;color:#7654a5;padding:9px 13px;border-radius:100px;font-weight:700}
+.biblioteca input{box-shadow:0 5px 18px #775d9b0a}
+.catalogo{gap:16px}.tarjeta{position:relative;overflow:hidden;border:1px solid #eee0ef;min-height:225px;box-shadow:0 10px 28px #6d3e8d0e}
+.tarjeta:before{content:'';position:absolute;top:0;left:0;right:0;height:5px;background:linear-gradient(90deg,#f47ca7,#ad82f4);opacity:.4}
+.tarjeta.disponible{background:linear-gradient(155deg,#fff,#fff0f6);border-color:#f2a3c1;box-shadow:0 12px 30px #e58db438}.tarjeta.disponible:before{opacity:1}
+.tarjeta .emoji{display:grid;place-items:center;width:78px;height:78px;background:linear-gradient(140deg,#fff0f5,#f0e7ff);border-radius:23px;filter:none}
+.tarjeta strong{font-family:Outfit,sans-serif;font-size:17px}.tarjeta span{color:#ce3875}
+.simulador{border:1px solid #ead9f1;border-radius:32px;padding:34px;background:#fff;box-shadow:0 25px 65px #54356b16}
+.sim-top{align-items:flex-start}.sim-top h2{font-size:clamp(29px,4vw,42px);font-weight:900;line-height:1.1;margin-top:14px}.sim-top p{font-size:15px}
+.eyebrow{font-size:11px;letter-spacing:.16em;color:#d44479}
+.cerrar{background:#fff0f5;border:1px solid #f8d6e4;border-radius:12px;padding:11px 15px;font-weight:800;white-space:nowrap}
+.caso-visual{position:relative;min-height:210px;background:radial-gradient(circle at 50% 35%,#fff7fc 0%,#f4e7ff 48%,#fce3ef 100%);border:1px solid #f0dced;border-radius:26px}
+.caso-visual-badge{position:absolute;left:18px;top:16px;padding:8px 11px;border-radius:100px;background:#ffffffb8;color:#a15b92;font-size:10px;font-weight:900;letter-spacing:.1em}
+.mancha{font-size:66px;filter:drop-shadow(0 12px 12px #8143bd22)}.caso-visual>span{font-size:13px;font-weight:700;color:#8c7797}
+.marcadores>div{background:#f8f1ff;border:1px solid #eee2f9;border-radius:15px;padding:13px 18px;color:#58416e;font-size:14px}
+.marcadores b{color:#322044;font-size:17px}
+.aviso{border:1px solid #f5e7b9;background:linear-gradient(90deg,#fff8df,#fff9ef);color:#65532e}.aviso button{background:#ffbd5c;box-shadow:0 5px 12px #dca45a25}
+.etapas{gap:9px}.etapas button{font-weight:800;border-radius:14px;padding:13px 15px;background:#f9f5fb;color:#756780}
+.etapas button.activa{background:linear-gradient(110deg,#f04c84,#aa66df);border-color:transparent;color:white;box-shadow:0 9px 20px #d95a9d38}
+.etapas button:disabled{opacity:.53}
+.entrevista-panel,.exploracion-panel,.diagnostico-panel,.decisiones-panel{background:linear-gradient(145deg,#fffafe,#fff);border:1px solid #eddfef;border-radius:25px;box-shadow:0 8px 25px #6b368a08}
+.entrevista-encabezado h3{font-size:25px}.avatar-paciente{box-shadow:0 8px 25px #a76dba26;border:2px solid #fff}
+.progreso-entrevista{border:1px solid #f5dce9;background:#fff1f6}
+.dialogo-clinico{border-color:#ecdef3;box-shadow:inset 0 2px 14px #6f4b8e06}
+.mensaje-paciente{background:#f0e9ff}.mensaje-medico{background:#ffe7f0}
+.preguntas-entrevista button,.evidencia,.diferencial,.razon,.opciones button,.decision-opciones button{box-shadow:0 4px 12px #5e35740a}
+.preguntas-entrevista button:hover:not(:disabled),.opciones button:hover:not(:disabled),.decision-opciones button:hover:not(:disabled){background:#fff0f8;box-shadow:0 8px 18px #df89b325}
+.exploracion-heading h3,.diagnostico-cabecera h3,.decisiones-panel h3{font-size:30px;font-weight:850}
+.brazo-interactivo{background:linear-gradient(140deg,#f9ecff,#fff1f6)}
+.barra-progreso,.seguridad-barra{height:12px}.barra-progreso div{background:linear-gradient(90deg,#f04f87,#9867e6)}
+.evidencia.elegida,.diferencial.elegida,.razon.elegida{background:linear-gradient(120deg,#fff0f7,#f6edff);border-color:#e762a0;box-shadow:0 8px 20px #e36ca71c}
+.decision-escena{box-shadow:0 8px 20px #6942810c}.decision-titulo h4{font-size:22px}
+.pregunta{background:#fff;border:1px solid #eaddf0;box-shadow:0 8px 24px #603c810a;padding:25px}
+.pregunta h3{font-size:23px}.pregunta-head span{background:#f6eaff;color:#9d3b8a;padding:8px 11px;border-radius:9px}
+.principal{background:linear-gradient(110deg,#f04c82,#a95ee2);box-shadow:0 8px 18px #e56d9b35}.principal:hover:not(:disabled){box-shadow:0 12px 25px #d45c9a55}
+.secundario{color:#674f76}
+.resultado-hero{background:linear-gradient(130deg,#ffe5f0,#f0e6ff 55%,#e6faf4)}
+.resultado-hero h2{font-weight:900}.insignia-final{box-shadow:0 10px 30px #8b55a425}
+.resultado-metricas>div,.expediente-final,.evaluacion-final{box-shadow:var(--shadow)}
+.evaluacion-item{background:linear-gradient(140deg,#fff9fc,#f9f4ff)}
+.retrato-alex{border:3px solid white;box-shadow:0 10px 28px #744b9b26}
+.resultado-acciones .principal{border:0}
+footer{font-size:12px;letter-spacing:.06em}
+@media(max-width:780px){.hero{padding:42px 27px}.simulador{padding:21px}.seccion-titulo span{display:inline-block}.caso-visual{min-height:185px}.sim-top{gap:0}}
+@media(max-width:540px){.contenedor{padding:18px 12px 45px}.hero{padding:38px 22px;border-radius:24px}.hero h1{font-size:40px}.hero p{font-size:15px}.simulador{border-radius:23px;padding:17px}.sim-top h2{font-size:29px}.etapas button{padding:10px 11px;font-size:12px}.caso-visual-badge{font-size:9px}.pregunta{padding:17px}.resultado-metricas{grid-template-columns:1fr 1fr}.resultado-metricas>div:last-child{grid-column:span 2}.acciones button{font-size:13px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+/* MEDSIMPATCH 7 Ã‚Â· DETALLES VISUALES SIN CAMBIAR LA LÃƒâ€œGICA */
+.mision-progreso{height:7px;background:#f0e7f6;border-radius:999px;overflow:hidden;margin:24px 0 12px}
+.mision-progreso>div{height:100%;background:linear-gradient(90deg,#f14f82,#9368e9);border-radius:inherit;transition:width .35s ease}
+.caso-visual-nueva{min-height:250px;gap:16px;overflow:hidden}
+.evidencia-brazo{position:relative;width:min(82%,440px);height:118px;border-radius:65px 45px 48px 65px;background:linear-gradient(165deg,#f9d5c6 0%,#eab19f 62%,#dca18f 100%);border:2px solid #d6a08f;transform:rotate(-7deg);box-shadow:inset 0 15px 20px #fff6,inset 0 -10px 16px #9e645126,0 14px 25px #784c6a20}
+.evidencia-brazo:after{content:'';position:absolute;inset:13px 30px auto 26px;height:15px;border-radius:100%;background:#fff6;filter:blur(8px)}
+.evidencia-equimosis{position:absolute;left:46%;top:29%;width:94px;height:59px;border-radius:54% 46% 57% 43%;transform:rotate(15deg);background:radial-gradient(ellipse at 43% 45%,#6b357e 0%,#87509a 31%,#a36ca6 58%,#bb85ac9c 76%,#b887a000 100%);filter:blur(2px)}
+.caso-visual-nueva>span{font-size:12px;text-align:center;color:#806e8c}
+@media(max-width:540px){.evidencia-brazo{width:94%;height:96px}.evidencia-equimosis{width:74px;height:49px}.caso-visual-nueva{min-height:220px}}
+
+/* MEDSIMPATCH | IDENTIDAD CLÃNICA CONTEMPORÃNEA
+   Ajustes visuales: conserva Ã­ntegra la lÃ³gica del simulador. */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--ink:#143442;--muted:#607984;--pink:#f07169;--pink-deep:#d95b53;--violet:#167e89;--lilac:#e6f5f3;--line:#dbe9e9;--mint:#d7f3ec;--shadow:0 14px 36px rgba(13,63,73,.075)}
+body{background:#f4f9f9;color:var(--ink);font-family:'DM Sans',Arial,sans-serif}
+h1,h2,h3,h4,.marca,.puntos-final,.insignia-final strong{font-family:'Manrope','DM Sans',sans-serif;letter-spacing:-.045em}
+.barra{background:#fff;border-bottom:1px solid #dce9e9;box-shadow:none}
+.marca{color:#103944;font-size:20px;letter-spacing:-.04em}.marca span{color:#138c94}.marca small{color:#6a8c91;letter-spacing:.17em}
+.version{background:#e9f7f5;border-color:#cde8e4;color:#25717a;border-radius:8px}
+.hero{background:linear-gradient(112deg,#103b4b 0%,#176574 62%,#2a9b9a 100%);border:0;border-radius:24px;box-shadow:0 24px 50px rgba(12,68,78,.16);padding:65px 58px}
+.hero:after{content:'+';font-family:'Manrope',sans-serif;color:#ffffff13;font-size:300px;right:3%;top:-20%}
+.hero .eyebrow{background:#ffffff18;color:#b8f3e9;border:1px solid #ffffff35;box-shadow:none;border-radius:7px}
+.hero h1{color:white;background:none;-webkit-text-fill-color:white;font-size:clamp(35px,5vw,59px);max-width:770px;letter-spacing:-.055em}
+.hero p{color:#d8f0f1;max-width:680px}
+.hero-pills span{background:#ffffff16;border:1px solid #ffffff38;color:#f2ffff;border-radius:8px;box-shadow:none;font-size:11px;letter-spacing:.07em}
+.seccion-titulo h2{color:#173d49}.seccion-titulo span{background:#e1f4f0;color:#237a7d;border-radius:8px}
+.biblioteca input{border-color:#d4e6e6;border-radius:11px;outline-color:#188b90}
+.catalogo{gap:15px}.tarjeta{min-height:215px;border:1px solid #d9e9e8;border-radius:17px;box-shadow:0 8px 24px #154d5810;background:#fff;color:#173a45}
+.tarjeta:before{height:4px;background:#1c9c9d}.tarjeta.disponible{background:#f4fffd;border-color:#62c2b8;box-shadow:0 9px 25px #1b8e8921}
+.tarjeta .emoji{width:67px;height:67px;border-radius:15px;background:#e4f5f3;color:#127982;font-family:'Manrope',sans-serif;font-weight:800;font-size:23px;letter-spacing:-.05em}
+.tarjeta strong{font-family:'Manrope',sans-serif;font-size:15px}.tarjeta span{color:#167d83}.tarjeta small{color:#78909a}
+.simulador{border:1px solid #d9e8e7;border-radius:23px;box-shadow:0 16px 48px #10445112;background:#fff}
+.sim-top{align-items:center}.sim-identidad{display:flex;align-items:center;gap:20px;min-width:0}.sim-foto-alex{width:102px;height:112px;object-fit:cover;object-position:center 24%;border-radius:15px;border:3px solid #e7f3f1;flex-shrink:0}
+.sim-top h2{color:#133844;font-size:clamp(25px,3.5vw,37px)}.sim-top p{color:#6d8389}
+.eyebrow{color:#13868c;letter-spacing:.12em}.cerrar{background:#e9f5f3;border-color:#cce6e2;color:#187780;border-radius:9px}
+.caso-visual{background:linear-gradient(115deg,#eaf6f4,#f5f9fa);border:1px solid #d8eae7;border-radius:16px}.caso-visual-badge{background:#fff;color:#287a80;border-radius:6px}
+.marcadores>div{background:#eff8f7;border:1px solid #dbeeea;border-radius:12px;color:#315f69;display:flex;align-items:center;gap:7px}.marcadores b{color:#103b48}.metrica-nombre{font-size:10px;font-weight:800;letter-spacing:.09em;color:#48848a}
+.aviso{background:#f6faf6;border:1px solid #dfeade;color:#506960}.aviso button{background:#f2a16d;color:#173844;box-shadow:none}
+.mision-progreso,.barra-progreso,.seguridad-barra,.resultado-progreso{background:#e3efee}.mision-progreso>div,.barra-progreso div,.seguridad-barra div,.resultado-progreso>div{background:linear-gradient(90deg,#1a8f93,#57c2ae)}
+.etapas button{background:#f2f7f7;border:1px solid #e0ebeb;color:#56747c;border-radius:10px}.etapas button.activa{background:#147e88;color:#fff;border-color:#147e88;box-shadow:0 6px 16px #167e8829}
+.entrevista-panel,.exploracion-panel,.diagnostico-panel,.decisiones-panel{background:#fff;border:1px solid #dcebea;border-radius:17px;box-shadow:none}
+.avatar-paciente{background:#e3f2ef;border-radius:13px;border:2px solid #d9ebe8;color:#187c84;font-size:30px;font-weight:800}.avatar-paciente img{border-radius:11px}
+.progreso-entrevista,.progreso-diagnostico{background:#eaf7f4;border:1px solid #d7ebe6;color:#2d7880}
+.dialogo-clinico,.hallazgo-box,.decision-escena,.pregunta{border-color:#dbe9e8;border-radius:15px;box-shadow:none}
+.mensaje-paciente{background:#e9f4f2}.mensaje-medico{background:#eaf0fa}.mensaje-paciente strong,.mensaje-medico strong{color:#227e84}
+.preguntas-entrevista button,.opciones button,.evidencia,.diferencial,.razon,.decision-opciones button,.maniobra{border-color:#d9e7e6;color:#25454d;box-shadow:none;border-radius:10px}
+.preguntas-entrevista button:hover:not(:disabled),.opciones button:hover:not(:disabled),.decision-opciones button:hover:not(:disabled){background:#eaf7f5;border-color:#50ada8;box-shadow:none}
+.brazo-interactivo{background:#eff7f6;border-color:#dcebea}.exploracion-contador{background:#e0f2ee;color:#23767c}.maniobra.seleccionada,.evidencia.elegida,.diferencial.elegida,.razon.elegida{background:#e6f7f3;border-color:#2b9b96;box-shadow:none}
+.pregunta-head span{background:#e3f4f0;color:#207d82}.principal{background:#137e88;color:#fff;box-shadow:0 7px 18px #167e882b;border-radius:10px}.principal:hover:not(:disabled){box-shadow:0 9px 20px #167e8840}.secundario{border-color:#cfe2df;color:#286b73;border-radius:10px}
+.seguridad-medidor,.decision-resumen{background:#eaf7f4}.decision-titulo span{color:#167e88}.decision-opciones button span{color:#137e88}
+.resultado-hero{background:linear-gradient(130deg,#e4f5f1,#e9f4f9);border-color:#d6e9e5;border-radius:19px}.resultado-hero:before,.resultado-hero:after{content:''}.resultado-etiqueta,.insignia-final span{color:#227a80}.resultado-hero h2,.expediente-datos h4{color:#153f49}
+.resultado-hero .trofeo{font-family:'Manrope',sans-serif;display:grid;place-items:center;margin:15px auto;width:86px;height:86px;border-radius:50%;background:#137e88;color:white;font-size:24px;font-weight:800;filter:none}
+.puntos-final,.resultado-metricas strong,.evaluacion-item strong{color:#147f88}.insignia-final{border:1px solid #d5eae6;box-shadow:none}
+.resultado-metricas>div,.expediente-final,.evaluacion-final{border-color:#dce9e8;border-radius:16px;box-shadow:none}.evaluacion-item{background:#f3f9f8;border-color:#dceae7}.retrato-alex{background:#e4f1ef;border-radius:14px;border:2px solid #e0ebe9;box-shadow:none}
+footer{border-color:#dce9e8;color:#69848a}
+@media(max-width:640px){.hero{padding:40px 24px}.sim-identidad{gap:11px}.sim-foto-alex{width:70px;height:84px}.sim-top{align-items:flex-start}.sim-top h2{font-size:25px}.marcadores>div{padding:10px}.metrica-nombre{font-size:9px}}
+/* EDICIÓN FINAL: PANTALLA DE ALEX */
+:root{--ink:#123449;--pink:#fa617d;--violet:#118b9b;--line:#dcebef;--shadow:0 12px 38px rgba(19,68,84,.08)}
+body{background:#f5fafc;color:#123449}
+.barra{border-bottom:1px solid #e1edf0}
+.marca span{color:#f26380}
+.version{background:#e9f5f8;color:#176d81;border-color:#d1e8ed}
+.app.jugando .contenedor{max-width:1240px;padding-top:22px}
+.app.jugando .simulador{margin:0 auto;padding:27px;border-radius:26px;border-color:#e1ebee;box-shadow:var(--shadow)}
+.sim-top{border-bottom:1px solid #e9f0f2;padding-bottom:20px;margin-bottom:23px}
+.sim-identidad{gap:16px}.sim-foto-alex{width:66px;height:70px;object-position:center 28%;border-radius:13px}
+.sim-top h2{font-size:clamp(24px,3vw,34px);margin:7px 0 4px}.sim-top p{margin:0}
+.alex-dashboard{display:grid;grid-template-columns:1.25fr 1fr;gap:16px;margin:20px 0}
+.alex-perfil,.alex-evidencia{background:#fff;border:1px solid #dfebee;border-radius:20px;overflow:hidden;box-shadow:0 5px 22px #124a5810}
+.alex-perfil{display:grid;grid-template-columns:minmax(160px,39%) 1fr;min-height:260px}
+.alex-perfil>img{width:100%;height:100%;object-fit:cover;object-position:center 25%;min-height:260px}
+.alex-perfil-info{padding:26px 22px;display:flex;flex-direction:column;justify-content:center}
+.alex-perfil-info h3{font-size:clamp(24px,2.7vw,34px);margin:10px 0;color:#113c51}
+.alex-cita{background:#edf7f9;color:#35596a;padding:16px;border-radius:12px;line-height:1.55;font-size:14px;margin:0 0 18px}
+.alex-datos{display:flex;flex-wrap:wrap;gap:7px}.alex-datos span{font-size:11px;font-weight:800;padding:9px 11px;background:#e9f6f4;border:1px solid #d5ece7;border-radius:30px;color:#247781}
+.alex-evidencia{padding:18px;display:flex;flex-direction:column;gap:11px}.alex-evidencia img{width:100%;height:192px;object-fit:cover;border-radius:12px}.alex-evidencia p{font-size:11px;color:#79919a;line-height:1.45;margin:0}
+.marcadores{gap:9px}.marcadores>div{flex:1;min-width:135px;justify-content:center;background:#f0f8f9;border-color:#e0edef}
+.mision-progreso{margin-top:20px}.etapas{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}.etapas button{border-radius:12px;font-size:12px;padding:12px 6px}
+.entrevista-panel,.exploracion-panel,.diagnostico-panel,.decisiones-panel{border-radius:20px;padding:26px}
+.principal,.etapas button.activa{background:#118c9c;border-color:#118c9c}.principal:hover:not(:disabled){background:#0d7381}
+.avatar-paciente{overflow:hidden}.avatar-paciente img{object-position:center 25%}
+@media(max-width:950px){.alex-dashboard{grid-template-columns:1fr}.alex-evidencia img{height:230px}}
+@media(max-width:600px){.app.jugando .simulador{padding:15px}.sim-top{align-items:flex-start}.sim-identidad{align-items:flex-start}.sim-foto-alex{width:55px;height:65px}.alex-perfil{grid-template-columns:110px 1fr;min-height:215px}.alex-perfil>img{min-height:215px}.alex-perfil-info{padding:13px}.alex-perfil-info h3{font-size:23px}.alex-cita{font-size:12px;padding:10px}.alex-datos span{font-size:10px;padding:6px}.alex-evidencia img{height:175px}.etapas{display:flex;overflow-x:auto}.etapas button{min-width:105px}.marcadores>div{min-width:100px}}
+
+.sorpresa-banner{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:30px 0;padding:27px;border-radius:19px;background:linear-gradient(110deg,#e2f4ef,#eaf4fa);border:1px solid #cce8e3}.sorpresa-banner h2{margin:7px 0;color:#143e4c;font-size:25px}.sorpresa-banner p{color:#587982;line-height:1.5;margin:7px 0}.sorpresa-banner button{border:0;background:#118c9c;color:white;font-weight:800;padding:16px 20px;border-radius:12px;white-space:nowrap}@media(max-width:650px){.sorpresa-banner{flex-direction:column;align-items:stretch}.sorpresa-banner button{white-space:normal}}
+
+/* MedSimPatch · pulido visual seguro (solo CSS) */
+:root{--msp-accent:#087e91;--msp-accent-deep:#075b6d;--msp-glow:rgba(8,126,145,.22)}
+button{transition:transform .2s ease,box-shadow .2s ease,background-color .2s ease,border-color .2s ease,opacity .2s ease}
+button:focus-visible,input:focus-visible{outline:3px solid #5cc5ce;outline-offset:3px}
+.principal,.sorpresa-banner button{background:linear-gradient(115deg,#087e91,#0e9b9d);color:#fff;border:1px solid transparent;box-shadow:0 7px 19px var(--msp-glow);font-weight:800;letter-spacing:.01em}
+.principal:hover:not(:disabled),.sorpresa-banner button:hover:not(:disabled){transform:translateY(-2px);background:linear-gradient(115deg,#076a7b,#0a898d);box-shadow:0 11px 24px rgba(8,126,145,.28)}
+.principal:active:not(:disabled),.sorpresa-banner button:active:not(:disabled){transform:translateY(0) scale(.985)}
+.secundario:hover:not(:disabled),.cerrar:hover:not(:disabled){border-color:#78bfc6;background:#eff9f9;color:#075b6d}
+.etapas{position:relative;isolation:isolate;gap:9px;margin:24px 0 16px}
+.etapas button{position:relative;min-height:49px;border-radius:12px!important;border:1px solid #d8e8eb;background:#f5fafb;color:#5b7981;font-weight:800;box-shadow:inset 0 1px 0 #fff}
+.etapas button.activa{background:linear-gradient(115deg,#087e91,#11a0a0)!important;border-color:#087e91!important;color:#fff;box-shadow:0 8px 20px rgba(8,126,145,.24);transform:translateY(-2px)}
+.etapas button:not(.activa):not(:disabled){background:#eaf7f5;border-color:#a8d9d5;color:#086e73}
+.etapas button:disabled{opacity:.62}
+.barra-progreso,.seguridad-barra{height:13px!important;border-radius:999px;background:#e4eff0;overflow:hidden;border:1px solid #d5e8e8;box-shadow:inset 0 2px 5px #12485812}
+.barra-progreso>div,.seguridad-barra>div{height:100%;border-radius:999px;background:linear-gradient(90deg,#087e91,#17b6a7)!important;transition:width .55s cubic-bezier(.22,1,.36,1);box-shadow:0 0 12px #14b2a54d}
+.opciones button,.decision-opciones button,.exploracion-opciones button{transition:transform .18s ease,background-color .18s ease,border-color .18s ease,box-shadow .18s ease}
+.opciones button:hover:not(:disabled),.decision-opciones button:hover:not(:disabled),.exploracion-opciones button:hover:not(:disabled){transform:translateX(3px);border-color:#58b5bb!important;background:#effafa!important;box-shadow:0 6px 17px #0d7d8e14}
+.opciones button.correcta{border-color:#259b78!important;background:#e7f8f0!important}
+.opciones button.incorrecta{border-color:#d36d79!important;background:#fff0f2!important}
+.pregunta,.entrevista-panel,.exploracion-panel,.diagnostico-panel,.decisiones-panel{box-shadow:0 8px 26px rgba(15,75,92,.045)}
+.resultado-hero{background:linear-gradient(125deg,#e4f7f4,#eaf4fb 65%,#f4f9fc);border-color:#cfe9e7;box-shadow:0 12px 32px #0c778c12}
+.resultado-hero .trofeo{box-shadow:0 9px 25px #087e9130}
+@media(max-width:600px){.etapas{gap:7px}.etapas button{min-height:44px}.acciones{flex-wrap:wrap}.acciones button{flex:1 1 125px}}
+@media(prefers-reduced-motion:reduce){button,.barra-progreso>div,.seguridad-barra>div,.opciones button,.decision-opciones button{transition:none!important;animation:none!important}}
+
+
+/* MEDSIMPATCH · MASCOTA HD / ANIMACIONES SUTILES */
+.hero{padding-right:clamp(24px,26vw,290px)!important;position:relative;overflow:hidden}
+.msp-mascota{position:absolute;right:clamp(12px,3vw,40px);top:50%;width:clamp(155px,21vw,235px);transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;pointer-events:none;animation:msp-entrada .75s cubic-bezier(.2,.8,.2,1) both}
+.msp-mascota-imagen{display:block;width:100%;height:auto;object-fit:contain;filter:drop-shadow(0 12px 16px rgba(2,48,65,.20));transform-origin:50% 85%;animation:msp-saludar 1.1s ease-in-out .5s 1 both}
+.msp-saludo{position:relative;z-index:1;background:#fff;color:#0b6973;border:1px solid #bfe9e6;box-shadow:0 8px 20px #052f4030;border-radius:15px;padding:10px 12px;font-size:12px;font-weight:800;text-align:center;line-height:1.35;margin-top:-7px;animation:msp-aparecer .45s ease-out 1.05s both}
+.msp-saludo span{color:#a47bd0}
+@keyframes msp-entrada{from{opacity:0;transform:translate(15px,calc(-50% + 12px))}to{opacity:1;transform:translate(0,-50%)}}
+@keyframes msp-saludar{0%{transform:rotate(-7deg) scale(.93)}40%{transform:rotate(7deg) scale(1.04)}70%{transform:rotate(-3deg)}100%{transform:rotate(0) scale(1)}}
+@keyframes msp-aparecer{from{opacity:0;transform:translateY(9px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+/* Botones: respuestas visuales sin rebotes constantes */
+.principal,.sorpresa-banner button{transition:background .2s,box-shadow .2s,transform .2s}
+.principal:hover:not(:disabled),.sorpresa-banner button:hover:not(:disabled){transform:translateY(-2px)}
+.principal:active:not(:disabled),.sorpresa-banner button:active:not(:disabled){transform:scale(.98)}
+/* Línea y etapas: avance claro y continuo */
+.mision-progreso{height:12px;border:1px solid #d2e8e7;background:#e6f1f1;border-radius:100px;overflow:hidden}
+.mision-progreso>div{height:100%;background:linear-gradient(90deg,#0d7d91,#25b8ad,#a4e4d8)!important;border-radius:100px;transition:width .65s cubic-bezier(.22,1,.36,1)!important}
+.etapas button{transition:background .22s,border-color .22s,transform .22s;min-height:49px}
+.etapas button:not(.activa):not(:disabled){border-color:#76c7be;background:#e6f7f3;color:#086e73}
+/* Final de misión: mascota celebra solo al llegar a resultados */
+.msp-celebracion{width:150px;height:145px;display:grid;place-items:center;margin:4px auto 8px;animation:msp-festejo 1s cubic-bezier(.2,.75,.3,1) both}
+.msp-celebracion img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 9px 11px #167e8840)}
+@keyframes msp-festejo{0%{opacity:0;transform:translateY(22px) scale(.75) rotate(-8deg)}55%{opacity:1;transform:translateY(-8px) scale(1.07) rotate(5deg)}100%{opacity:1;transform:translateY(0) scale(1) rotate(0)}}
+@media(max-width:750px){.hero{padding-right:25px!important;padding-top:180px!important}.msp-mascota{top:13px;right:18px;width:130px;transform:none;animation:msp-entrada-movil .7s ease-out both}.msp-saludo{font-size:10px;padding:7px 9px;margin-top:-9px}@keyframes msp-entrada-movil{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}}
+@media(prefers-reduced-motion:reduce){.msp-mascota,.msp-mascota-imagen,.msp-saludo,.msp-celebracion{animation:none!important}.mision-progreso>div{transition:none!important}}
